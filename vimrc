@@ -11,6 +11,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'chriskempson/tomorrow-theme'
 Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-powerline' 
 
 filetype plugin indent on
 
@@ -52,6 +53,10 @@ let g:persistentBehaviour = 0		" 所有檔案關閉時自動離開 vim
 nmap <C-W><C-F> :FirstExplorerWindow<cr>
 nmap <C-W><C-B> :BottomExplorerWindow<cr>
 nmap <F12> :WMToggle<cr> 		" F12 為開啟/關閉 winmannager
+
+" status line
+set laststatus=2 			"Powerline need.
+set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%l,%v,%p%%]
 
 " tab 切換
 "nmap <C-t> :tabnew<cr>                  " 增加檔案
