@@ -12,6 +12,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'chriskempson/tomorrow-theme'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline' 
+Bundle 'php_getset.vim'
+Bundle 'tomasr/molokai'
 
 filetype plugin indent on
 
@@ -21,7 +23,7 @@ set fileencodings=ucs-bom,utf-8,big5,latin1
 set fileencoding=utf-8
 set termencoding=utf-8
 set t_Co=256				" 支援 256 色
-colorscheme Tomorrow-Night-Bright 
+colorscheme molokai 
 
 set number				" 行號
 set ic					"搜尋忽略大小寫
@@ -30,11 +32,13 @@ syntax on				" 色彩標示
 "set noeb				" turn off error bell
 "set vb t_vb= 				" turn off visual bell
 "set tabstop=4
-"set shiftwidth=4			" 縮排空白數
-"set softtabstop=4 
+set cindent
+set expandtab
+set shiftwidth=4                        " 縮排空白數
+set softtabstop=4 
 "set nobackup				" 不要備份檔
 set cursorline				" 該行的線
-set textwidth=0
+"set textwidth=0
 "set wrap
 
 " taglist setting
