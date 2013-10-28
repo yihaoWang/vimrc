@@ -14,22 +14,25 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'php_getset.vim'
 Bundle 'tomasr/molokai'
 Bundle 'taglist.vim'
+Bundle 'shawncplus/phpcomplete.vim'
+
 filetype plugin indent on
 colorscheme molokai 
 
 " 設定編碼
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,latin1
 set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,big5,latin1
 set termencoding=utf-8
 set t_Co=256				" 支援 256 色
-
 set number				" 行號
-set ic					"搜尋忽略大小寫
+set ic					" 搜尋忽略大小寫
 set ai					" 自動縮排
+set hlsearch                            " 搜尋反白
+set fo-=r                               " 換行不自動註解
 syntax on				" 色彩標示
 set cindent                             " 使用 c 的縮排方式
-set expandtab                           " 將 tab 換成 space
+"set expandtab                           " 將 tab 換成 space
 set shiftwidth=4                        " 縮排空白數
 set softtabstop=4                       " 將 shift 設為 4 個字元
 set cursorline				" 該行的線
