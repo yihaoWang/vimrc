@@ -14,6 +14,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'php_getset.vim'
 Bundle 'tomasr/molokai'
 Bundle 'taglist.vim'
+
 filetype plugin indent on
 colorscheme molokai 
 
