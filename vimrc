@@ -49,8 +49,8 @@ let Tlist_Use_Right_Window = 1          " 在右側窗口中顯示taglist窗口
 
 " tab 切換
 nmap <C-t> :tabnew<cr>                  " 開心分頁 
-nmap <C-h> :tabnext<cr> 
-nmap <C-l> :tabprevious<cr>
+nmap <C-l> :tabnext<cr> 
+nmap <C-h> :tabprevious<cr>
 nmap <C-e> :tabedit
 
 " status line
