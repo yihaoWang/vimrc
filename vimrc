@@ -25,6 +25,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,latin1
 set termencoding=utf-8
 set t_Co=256				" 支援 256 色
+
 set number				" 行號
 set ic					" 搜尋忽略大小寫
 set ai					" 自動縮排
@@ -48,8 +49,8 @@ let Tlist_Use_Right_Window = 1          " 在右側窗口中顯示taglist窗口
 
 " tab 切換
 nmap <C-t> :tabnew<cr>                  " 開心分頁 
-nmap <C-h> :tabnext<cr> 
-nmap <C-l> :tabprevious<cr>
+nmap <C-l> :tabnext<cr> 
+nmap <C-h> :tabprevious<cr>
 nmap <C-e> :tabedit
 
 " status line
