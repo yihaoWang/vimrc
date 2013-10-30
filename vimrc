@@ -25,6 +25,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,latin1
 set termencoding=utf-8
 set t_Co=256				" 支援 256 色
+
 set number				" 行號
 set ic					" 搜尋忽略大小寫
 set ai					" 自動縮排
