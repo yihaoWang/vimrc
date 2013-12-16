@@ -48,6 +48,7 @@ let Tlist_Show_One_File = 1         	" 不同時顯示多個文件的tag，只�
 let Tlist_Exit_OnlyWindow = 1           " 如果taglist窗口是最後一個窗口，則退出vim
 let Tlist_Use_Right_Window = 1          " 在右側窗口中顯示taglist窗口 
 "nnoremap <silent> <F8> :TlistToggle<CR>	" F8 為開啟/關閉 Tlist 的快速鍵
+let g:EasyMotion_leader_key = 'g'
 
 " tab 切換
 nmap <C-t> :tabnew<cr>                  " 開心分頁 
