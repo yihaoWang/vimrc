@@ -19,6 +19,7 @@ Bundle 'AutoComplPop'
 Bundle 'EasyMotion'
 Bundle 'scrooloose/syntastic'
 Bundle "motus/pig.vim"
+Bundle "autowitch/hive.vim"
 
 filetype plugin indent on
 colorscheme molokai
