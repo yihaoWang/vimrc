@@ -18,6 +18,7 @@ Bundle 'shawncplus/phpcomplete.vim'
 Bundle 'AutoComplPop'
 Bundle 'EasyMotion'
 Bundle 'scrooloose/syntastic'
+Bundle "motus/pig.vim"
 
 filetype plugin indent on
 colorscheme molokai
