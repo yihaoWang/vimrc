@@ -17,7 +17,6 @@ Bundle 'taglist.vim'
 Bundle 'shawncplus/phpcomplete.vim'
 Bundle 'AutoComplPop'
 Bundle 'EasyMotion'
-Bundle 'scrooloose/syntastic'
 Bundle "motus/pig.vim"
 Bundle "autowitch/hive.vim"
 
