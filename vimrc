@@ -7,18 +7,15 @@ call vundle#rc()
 
 " let Vundle manage vundle
 Bundle 'gmarik/vundle'
-Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'php_getset.vim'
 Bundle 'tomasr/molokai'
-Bundle 'taglist.vim'
-Bundle 'shawncplus/phpcomplete.vim'
-Bundle 'AutoComplPop'
 Bundle 'EasyMotion'
-Bundle "motus/pig.vim"
-Bundle "autowitch/hive.vim"
+Bundle 'joyent/node'
+Bundle 'moll/vim-node'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'pangloss/vim-javascript'
 
 filetype plugin indent on
 colorscheme molokai
